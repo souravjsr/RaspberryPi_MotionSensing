@@ -1,9 +1,4 @@
 #!/usr/bin/env python2.7
-# script by Alex Eames http://RasPi.tv
-# needs RPi.GPIO 0.5.2 or later
-# No guarantees. No responsibility accepted. It works for me.
-# If you need help with it, sorry I haven't got time. I'll try and add more
-# documentation as time goes by. But no promises.
 
 import RPi.GPIO as GPIO
 from subprocess import call
