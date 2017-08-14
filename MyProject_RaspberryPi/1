@@ -1,0 +1,12 @@
+installer(){
+    echo " Installer Function called"
+    if [$1 -eq 0 ];
+    then
+        echo "good to go!"
+    else
+        echo "Problem with the last command!!"
+    fi
+}
+
+ls
+installer $?
